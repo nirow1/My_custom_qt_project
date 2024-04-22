@@ -1,0 +1,68 @@
+{
+  "ShowLogs": true,
+  "QMainWindow": [
+    {
+      "tittle": "4jtech_custom_theme",
+      "icon": "Qss/icons/ico.png",
+      "translucent": true,
+      "background-color": "#FFFFFF",
+      "sizeGrip": "size_grip",
+      "navigation": [
+        {
+          "minimize": "minimaze_window_button",
+          "close": "close_window_button",
+          "restore": [
+            {
+              "buttonName": "restore_window_button",
+              "normalIcon": "Qss/icons/Icons/feather/maximize-2.png",
+              "maximizedIcon": "Qss/icons/Icons/feather/minimize-2.png"
+            }
+          ],
+          "moveWindow": "header_frame",
+          "tittleBar": "header_frame"
+        }
+      ]
+    }
+  ],
+  "QStackedWidget": [
+    {
+      "name": "stackedWidget",
+      "navigation":[
+        {
+          "navigationButtons": [
+            {
+              "percentage_bar_btn": "percentage_bar_charts",
+              "nested_donut_btn": "nested_donuts",
+              "line_chart_btn": "line_charts",
+              "bar_chart_btn": "bar_charts",
+              "temperature_bar_btn": "temperature_bar_charts"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "QSettings": [
+    {
+      "ThemeSettings": [
+        {
+          "CustomTheme": [
+            {
+              "Background-color": "#FFFFFF",
+              "Text-color": "#000000",
+              "Accent-color": "#000000",
+              "Icons-color": "#008000",
+              "Theme-name": "Default-theme",
+              "Default-Theme": true
+            }
+          ]
+        }
+      ],
+      "AppSettings": {
+        "OrginizationName": "4jtech_custom_theme",
+        "ApplicationName": "4Jtech",
+        "OrginizationDormain": "4jtech_custom_theme.org"
+      }
+    }
+  ]
+}
