@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'interfacejPGJaL.ui'
+## Form generated from reading UI file 'interfacenznbKP.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -97,7 +97,7 @@ class Ui_MainWindow(object):
         self.percentage_bar_btn.setSizePolicy(sizePolicy)
         self.percentage_bar_btn.setMinimumSize(QSize(0, 30))
         icon = QIcon()
-        icon.addFile(u":/feather/icons/feather/bar-chart-2.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"./Qss/icons/Icons/feather/bar-chart-2.png", QSize(), QIcon.Normal, QIcon.Off)
         self.percentage_bar_btn.setIcon(icon)
         self.percentage_bar_btn.setIconSize(QSize(20, 20))
 
@@ -110,7 +110,7 @@ class Ui_MainWindow(object):
         self.temperature_bar_btn.setMinimumSize(QSize(0, 30))
         self.temperature_bar_btn.setStyleSheet(u"")
         icon1 = QIcon()
-        icon1.addFile(u":/font_awesome_solid/icons/font_awesome/solid/temperature-empty.png", QSize(), QIcon.Normal,
+        icon1.addFile(u"./Qss/icons/Icons/feather/temperature-empty.png", QSize(), QIcon.Normal,
                       QIcon.Off)
         self.temperature_bar_btn.setIcon(icon1)
         self.temperature_bar_btn.setIconSize(QSize(20, 20))
@@ -121,7 +121,7 @@ class Ui_MainWindow(object):
         self.nested_donut_btn.setObjectName(u"nested_donut_btn")
         self.nested_donut_btn.setMinimumSize(QSize(0, 30))
         icon2 = QIcon()
-        icon2.addFile(u":/feather/icons/feather/target.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon2.addFile(u"./Qss/icons/Icons/feather/target.png", QSize(), QIcon.Normal, QIcon.Off)
         self.nested_donut_btn.setIcon(icon2)
         self.nested_donut_btn.setIconSize(QSize(20, 20))
 
@@ -131,7 +131,7 @@ class Ui_MainWindow(object):
         self.line_chart_btn.setObjectName(u"line_chart_btn")
         self.line_chart_btn.setMinimumSize(QSize(0, 30))
         icon3 = QIcon()
-        icon3.addFile(u":/feather/icons/feather/git-merge.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon3.addFile(u"./Qss/icons/Icons/feather/git-merge.png", QSize(), QIcon.Normal, QIcon.Off)
         self.line_chart_btn.setIcon(icon3)
         self.line_chart_btn.setIconSize(QSize(20, 20))
 
@@ -141,7 +141,7 @@ class Ui_MainWindow(object):
         self.bar_chart_btn.setObjectName(u"bar_chart_btn")
         self.bar_chart_btn.setMinimumSize(QSize(0, 30))
         icon4 = QIcon()
-        icon4.addFile(u":/feather/icons/feather/bar-chart.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon4.addFile(u"./Qss/icons/Icons/feather/bar-chart.png", QSize(), QIcon.Normal, QIcon.Off)
         self.bar_chart_btn.setIcon(icon4)
         self.bar_chart_btn.setIconSize(QSize(20, 20))
 
@@ -261,7 +261,7 @@ class Ui_MainWindow(object):
         self.minimaze_window_button.setMaximumSize(QSize(30, 16777215))
         self.minimaze_window_button.setToolTipDuration(-1)
         icon6 = QIcon()
-        icon6.addFile(u":/feather/icons/feather/checkbox_indeterminate.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon6.addFile(u"./Qss/icons/Icons/feather/checkbox_indeterminate.png", QSize(), QIcon.Normal, QIcon.Off)
         self.minimaze_window_button.setIcon(icon6)
         self.minimaze_window_button.setIconSize(QSize(20, 20))
 
@@ -271,7 +271,7 @@ class Ui_MainWindow(object):
         self.restore_window_button.setObjectName(u"restore_window_button")
         self.restore_window_button.setMaximumSize(QSize(30, 16777215))
         icon7 = QIcon()
-        icon7.addFile(u":/feather/icons/feather/maximize-2.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon7.addFile(u"./Qss/icons/Icons/feather/maximize-2.png", QSize(), QIcon.Normal, QIcon.Off)
         self.restore_window_button.setIcon(icon7)
         self.restore_window_button.setIconSize(QSize(20, 20))
 
@@ -282,7 +282,7 @@ class Ui_MainWindow(object):
         self.close_window_button.setMaximumSize(QSize(30, 16777215))
         self.close_window_button.setAutoFillBackground(False)
         icon8 = QIcon()
-        icon8.addFile(u":/feather/icons/feather/x.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon8.addFile(u"./Qss/icons/Icons/feather/x.png", QSize(), QIcon.Normal, QIcon.Off)
         self.close_window_button.setIcon(icon8)
         self.close_window_button.setIconSize(QSize(20, 20))
         self.close_window_button.setCheckable(False)
@@ -551,7 +551,7 @@ class Ui_MainWindow(object):
         self.percentage_bar_btn.setText(QCoreApplication.translate("MainWindow", u"Procentu\u00e1ln\u00ed", None))
         self.temperature_bar_btn.setText(QCoreApplication.translate("MainWindow", u"Teplotn\u00ed", None))
         self.nested_donut_btn.setText(QCoreApplication.translate("MainWindow", u"Zahnizd\u011bny", None))
-        self.line_chart_btn.setText(QCoreApplication.translate("MainWindow", u"Linkov\u00fd", None))
+        self.line_chart_btn.setText(QCoreApplication.translate("MainWindow", u"Liniov\u00fd", None))
         self.bar_chart_btn.setText(QCoreApplication.translate("MainWindow", u"Sloupcov\u00fd", None))
         self.label_2.setText(QCoreApplication.translate("MainWindow", u"SOMETHING", None))
         self.label_7.setText("")

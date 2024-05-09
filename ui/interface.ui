@@ -263,7 +263,7 @@ QPushButton:pressed {
              </size>
             </property>
             <property name="text">
-             <string>Linkový</string>
+             <string>Liniový</string>
             </property>
             <property name="icon">
              <iconset resource="../Qss/icons/_icons.qrc">
